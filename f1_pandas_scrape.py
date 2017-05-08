@@ -21,7 +21,10 @@ races_2015 = ["australia","malaysia","china", "bahrain","spain", "monaco","canad
               "japan", "russia","united-states","mexico","brazil","abu-dhabi","europe"]
 
 def race_weekend(races_2015, table_race):
-    # The number is associated with the race in the url.
+    """
+    The number is associated with the race in the url.
+    This number should be added to the array.
+    """
     number = 917
     for i in races_2015:
         print("Getting results for race: {}".format(i))
