@@ -36,6 +36,9 @@ def race_weekend(races_2015, table_race):
 
 
 def get_results(years, table_name):
+  """
+  This function is for grabing tables from the "yearly" section. table_name = races, driver, team, fastest-lap.
+  """
     for i in years:
         print("Getting results for year: {}".format(i))
         url = "https://www.formula1.com/en/results.html/{}/{}.html".format(i, table_name)
